@@ -1,0 +1,17 @@
+{
+    "name": "rahul/php",
+    "description": "for practice purpose",
+    "require": {
+        "php": "^5.5",
+       "codeception/codeception": "*.*",
+        "elasticsearch/elasticsearch": "~2.0"
+ 
+    },
+    "authors": [
+        {
+            "name": "Rahul Nijhawan",
+            "email": "rahul.nijhawan@gmail.com"
+        }
+    ]
+
+}
