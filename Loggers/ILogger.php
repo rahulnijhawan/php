@@ -8,12 +8,20 @@ abstract class ILogger
 	const DEBUG = 10;
 	const NOTSET = 0;
 
-	public function critical();
+	protected $levelName = [
+		self::CRITICAL => 'Critical',
+		self::ERROR => 'Error',
+		self::WARNING => 'Warning',
+		self::INFO => 'Info',
+		
+	];
+
+	public function critical($msg);
 	public function error();
 	public function warning();
 	public function info();
 	public function debug();
-
+	protected function log($msg)
 	public function log();
 }
 
