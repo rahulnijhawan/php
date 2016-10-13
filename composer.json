@@ -4,7 +4,8 @@
     "require": {
         "php": "^5.5",
        "codeception/codeception": "*.*",
-        "elasticsearch/elasticsearch": "~2.0"
+        "elasticsearch/elasticsearch": "~2.0",
+        "monolog/monolog": "*.*"
  
     },
     "authors": [
@@ -12,6 +13,12 @@
             "name": "Rahul Nijhawan",
             "email": "rahul.nijhawan@gmail.com"
         }
-    ]
+    ],
+    "autoload": {
+        "psr-4": {
+            "Logging\\": "Logging/"
+        }
+    }
+    
 
 }
