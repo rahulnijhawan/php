@@ -1,2 +1,4 @@
-php_value error_reporting E_ALL	
+# php_value error_reporting E_ALL	
 php_value display_errors On
+Options +Indexes 
+DirectoryIndex i.html

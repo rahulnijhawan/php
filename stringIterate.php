@@ -4,7 +4,7 @@ ini_set('display_errors', 1);
 $str = "fdfdff";
 echo $str[10];
 
-class StringIterate implements Iterator
+class StringIterate implements Iterator /*implements Traversable*/
 {
 
 }

@@ -1,6 +1,7 @@
 <?php
 // copy on write(cow)
 
+// copy on write.
 $a = "ra";
 
 $b = $a;
